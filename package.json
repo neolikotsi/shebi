@@ -1,0 +1,10 @@
+{
+  "name": "shebi",
+  "version": "1.0.0",
+  "description": "An event for CSS position:sticky",
+  "main": "index.js",
+  "repository": "https://github.com/neolikotsi/shebi",
+  "author": "Neo Likotsi",
+  "license": "MIT",
+  "private": false
+}
