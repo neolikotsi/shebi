@@ -2,9 +2,23 @@
   "name": "shebi",
   "version": "1.0.0",
   "description": "An event for CSS position:sticky",
-  "main": "index.js",
+  "main": "dist/shebi.js",
   "repository": "https://github.com/neolikotsi/shebi",
-  "author": "Neo Likotsi",
+  "author": "Neo Likotsi <info@bengen.co.za>",
   "license": "MIT",
-  "private": false
+  "scripts": {
+    "dev": "npm run development",
+    "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "npm run development -- --watch",
+    "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "prod": "npm run production",
+    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "laravel-mix": "^5.0.4"
+  }
 }
