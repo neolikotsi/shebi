@@ -1,6 +1,6 @@
 {
   "name": "shebi",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An event for CSS position:sticky",
   "main": "src/shebi.js",
   "repository": "https://github.com/neolikotsi/shebi",
