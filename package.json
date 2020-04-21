@@ -2,10 +2,19 @@
   "name": "shebi",
   "version": "1.0.1",
   "description": "An event for CSS position:sticky",
-  "main": "src/shebi.js",
+  "keywords": [
+    "javascript",
+    "sticky position",
+    "css sticky event",
+    "affix watch",
+    "sticky scroll event"
+  ],
+  "main": "dist/shebi.js",
+  "module": "src/shebi.js",
   "repository": "https://github.com/neolikotsi/shebi",
   "author": "Neo Likotsi <info@bengen.co.za>",
   "license": "MIT",
+  "test": "echo 'Error: no test specified' && exit 1",
   "scripts": {
     "dev": "npm run development",
     "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",

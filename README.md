@@ -1,2 +1,3 @@
-# shebi-js
-An event for CSS position:sticky
+## shebi - Javascript event for CSS position:sticky
+
+![shebi logo](src/shebi.png))
