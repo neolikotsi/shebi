@@ -24,9 +24,9 @@ shebi("selector").on("stick-change", evt => {
 
     if (stuck) {
         // do something
-        target.classList.addClass('shadow', stuck);
+        target.classList.add('shadow');
     } else {
-        target.classList.removeClass('shadow', stuck);
+        target.classList.remove('shadow');
     }
 });
 ```
